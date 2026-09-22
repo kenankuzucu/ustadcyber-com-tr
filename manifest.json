@@ -1,0 +1,59 @@
+{
+ "name": "Siber Güvenlik 3.0 ULTRA — Üstad Kenan",
+ "short_name": "Siber ULTRA",
+ "description": "IP tarama, site güvenlik taraması, şifre sızıntı kontrolü, canlı TV/radyo, takvim, günlük panel ve daha fazlası — tek sayfada.",
+ "lang": "tr",
+ "start_url": "./index.html",
+ "scope": "./",
+ "display": "standalone",
+ "orientation": "any",
+ "background_color": "#04070b",
+ "theme_color": "#04070b",
+ "categories": [
+  "security",
+  "utilities",
+  "news"
+ ],
+ "icons": [
+  {
+   "src": "assets/icons/uygulama-192.png",
+   "sizes": "192x192",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "assets/icons/uygulama-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "any"
+  },
+  {
+   "src": "assets/icons/uygulama-512.png",
+   "sizes": "512x512",
+   "type": "image/png",
+   "purpose": "maskable"
+  }
+ ],
+ "shortcuts": [
+  {
+   "name": "IP Tarama",
+   "url": "./index.html#iptarama"
+  },
+  {
+   "name": "Site Tara",
+   "url": "./index.html#sitetara"
+  },
+  {
+   "name": "Canlı TV",
+   "url": "./index.html#yayin"
+  },
+  {
+   "name": "Radyo",
+   "url": "./index.html#radyo"
+  },
+  {
+   "name": "Randevu",
+   "url": "./index.html#salon"
+  }
+ ]
+}

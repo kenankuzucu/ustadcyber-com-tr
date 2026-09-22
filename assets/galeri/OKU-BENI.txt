@@ -1,0 +1,28 @@
+ÜSTAD KENAN — GALERİ KLASÖRÜ
+=============================
+
+Buraya fotoğrafları şu İSİMLERLE koy, site kendiliğinden gösterir
+(başka hiçbir ayar gerekmez):
+
+  oncesi.jpg      → ÖNCESİ / SONRASI karşılaştırmasının sol tarafı
+  sonrasi.jpg     → ÖNCESİ / SONRASI karşılaştırmasının sağ tarafı
+  galeri1.jpg     → Galeri kutuları
+  galeri2.jpg
+  galeri3.jpg
+  galeri4.jpg
+  galeri5.jpg
+  galeri6.jpg
+  galeri7.jpg
+  galeri8.jpg
+
+İPUÇLARI
+--------
+ • En iyi sonuç: 1200x1200 (kare) ya da 1200x900 yatay fotoğraf.
+ • Boyutu küçültmek sitenin hızlı açılmasını sağlar (her fotoğraf
+   tercihen 300 KB altında olsun).
+ • Fotoğraf yoksa galeri bölümü kırmızı bir uyarı gösterir; o
+   uyarı fotoğraf eklenince kendiliğinden kaybolur.
+ • İsim değiştirmek istersen: index.html içinde "galeriUyari"
+   bölümünün bulunduğu yerdeki isimleri düzenle (ya da bana söyle).
+
+Selimiye Mah. 64111 Nolu Sok. No:33 · Şehitkamil / GAZİANTEP

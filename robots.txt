@@ -1,0 +1,6 @@
+# ustadcyber.com.tr
+User-agent: *
+Allow: /
+Disallow: /misafir-ayar.txt
+Disallow: /*.zip$
+Disallow: /*.txt$

@@ -1,0 +1,32 @@
+# ====================================================================
+#  USTADCYBER.COM.TR — GÜVENLİK AYARLARI (.htaccess)
+#  Bu dosyayı site klasörüne ".htaccess" adıyla koy (nokta ile başlar).
+#  İçinde: http->https yönlendirme + 6 güvenlik başlığı + sızıntı dosya engeli
+#  Tarih: 11.09.2026 22:08
+# ====================================================================
+
+RewriteEngine On
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+<IfModule mod_headers.c>
+  Header always set Strict-Transport-Security "max-age=31536000; includeSubDomains"
+  Header always set X-Content-Type-Options "nosniff"
+  Header always set X-Frame-Options "SAMEORIGIN"
+  Header always set Referrer-Policy "strict-origin-when-cross-origin"
+  Header always set Permissions-Policy "geolocation=(), microphone=(), camera=()"
+  Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src https://fonts.gstatic.com data:; img-src 'self' data: blob: https:; media-src 'self' blob: data: https: http:; connect-src 'self' https: wss:; frame-src https: http:; frame-ancestors 'self'; base-uri 'self'; form-action 'self'"
+</IfModule>
+
+# Notlar/zip/sql gibi sızıntı dosyalarını kapat
+<FilesMatch "\.(txt|md|log|bak|old|sql|zip)$">
+  Require all denied
+</FilesMatch>
+<FilesMatch "^(misafir-ayar\.txt)$">
+  Require all granted
+</FilesMatch>
+
+# Gizli dosyalar
+<FilesMatch "^\.">
+  Require all denied
+</FilesMatch>

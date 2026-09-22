@@ -1,0 +1,126 @@
+{
+ "tarih": "2026-09-23 02:34",
+ "adres": "https://www.ustadcyber.com.tr/",
+ "dosyalar": [
+  {
+   "yol": "index.html",
+   "bayt": 843164,
+   "sha256": "e6eff9fddd95d04d",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "manifest.json",
+   "bayt": 1248,
+   "sha256": "3cb7b1cf38c46f9f",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "sw.js",
+   "bayt": 2604,
+   "sha256": "05e6a113110a67bb",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/leaflet.css",
+   "bayt": 14806,
+   "sha256": "a783710282418482",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/leaflet.js",
+   "bayt": 147552,
+   "sha256": "db49d009c841f5ca",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/dunya-ulke.geojson",
+   "bayt": 165971,
+   "sha256": "d3efb8f6051947c6",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/foto/ataturk-bayrakli.jpg",
+   "bayt": 92619,
+   "sha256": "ad8e979b50955173",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/foto/kenan-avatar.jpg",
+   "bayt": 150873,
+   "sha256": "b96d3ad663b83b9d",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/foto/kus.jpg",
+   "bayt": 78387,
+   "sha256": "df25260014639128",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/foto/portre.jpg",
+   "bayt": 19690,
+   "sha256": "baf43688d6a9c731",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/galeri/OKU-BENI.txt",
+   "bayt": 1007,
+   "sha256": "b4957992a9bf9372",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/facebook.svg",
+   "bayt": 557,
+   "sha256": "f7129f819f03a69d",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/gmail.svg",
+   "bayt": 354,
+   "sha256": "21b263638deb7692",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/instagram.svg",
+   "bayt": 2116,
+   "sha256": "9007b995b5d7f7de",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/linkedin.svg",
+   "bayt": 602,
+   "sha256": "c436cf50a529595e",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/tiktok.svg",
+   "bayt": 722,
+   "sha256": "907d861b0bc06cde",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/whatsapp.svg",
+   "bayt": 1231,
+   "sha256": "3e197e0e1f3e679e",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/youtube.svg",
+   "bayt": 474,
+   "sha256": "7f5156448b9c1b65",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/uygulama-192.png",
+   "bayt": 5729,
+   "sha256": "35a3b549a2a99e41",
+   "canli_dogrulandi": true
+  },
+  {
+   "yol": "assets/icons/uygulama-512.png",
+   "bayt": 16222,
+   "sha256": "493b7fb3413c570e",
+   "canli_dogrulandi": true
+  }
+ ]
+}

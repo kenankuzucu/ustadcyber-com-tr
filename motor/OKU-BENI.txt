@@ -1,0 +1,63 @@
+====================================================================
+  ÜSTAD KENAN — SİBER GÜVENLİK 3D MERKEZ
+  YEREL TARAMA MOTORU  ·  OKU BENİ
+====================================================================
+
+BU KLASÖRDEKİ "BASLAT-MOTOR.bat" NE İŞE YARAR?
+------------------------------------------------
+Tarayıcı (Chrome/Edge) güvenlik nedeniyle bazı şeyleri YAPAMAZ:
+
+  ✗ Doğrudan port taraması yapamaz
+  ✗ Başka bir sitenin yanıt başlıklarını okuyamaz
+  ✗ Dosya özeti (hash) hesaplayamaz (sayfa file:// ile açıldıysa)
+
+Bu motor (küçük bir Python programı) o işleri GERÇEKTEN yapar ve
+sayfaya "motor bağlı" bilgisini verir. Ayrıca siteyi
+http://127.0.0.1:8080 adresinde yayınlar (böylece tüm araçlar tam güç
+çalışır).
+
+NASIL ÇALIŞTIRILIR?
+------------------------------------------------
+  1) BASLAT-MOTOR.bat dosyasına ÇİFT TIKLA
+  2) Siyah pencere açılır ve tarayıcıda site kendiliğinden açılır
+  3) Site içindeki IP TARAMA bölümüne bak: "MOTOR BAĞLI" yazıyorsa
+     gerçek port taraması ve gerçek başlık okuma aktif demektir
+  4) İşin bitince siyah pencereyi kapat (ya da CTRL + C)
+
+MOTOR HANGİ UÇ NOKTALARI SUNAR?
+------------------------------------------------
+  /ping                 → motor çalışıyor mu? (site bunu otomatik sorar)
+  /port?host=8.8.8.8    → gerçek TCP port taraması (32 yaygın port)
+  /baslik?url=...       → gerçek HTTP başlıkları + yönlendirme zinciri
+  /dosya?url=...        → hassas dosya kontrolü (.env, .git, yedekler…)
+  /sertifika?host=...   → canlı SSL sertifikası (konu, veren, tarih, SAN)
+  /ag?aralik=192.168.1  → KENDİ YEREL AĞINI tarar (cihazlar + açık portlar + MAC)
+  /dns?host=...         → adres çözümleme
+
+GÜVENLİK NOTLARI
+------------------------------------------------
+  • Motor YALNIZCA 127.0.0.1 (bu bilgisayar) adresini dinler.
+    Ağdaki başka bir cihaz erişemez, internete açık değildir.
+  • Hiçbir veri dışarıya gönderilmez; hedef sitelere sadece okuma
+    amaçlı istek yapılır (yazma / silme / şifre denemesi YOKTUR).
+  • Bu araç SAVUNMA amaçlıdır: kendi sitene, kendi cihazına ve
+    yazılı izin aldığın hedeflere bakmak içindir.
+  • İzinsiz bir sistemi taramak Türkiye'de 5237 sayılı TCK'nın
+    bilişim suçları maddeleri kapsamında SUÇTUR.
+
+SORUN GIDERME
+------------------------------------------------
+  "Python bulunamadi" hatası  → python.org'dan Python kur, kurulumda
+                                "Add python.exe to PATH" kutusunu işaretle.
+  Site açıldı ama "MOTOR YOK" → Siyah pencere açık mı? Aç, sonra
+                                tarayıcıda F5 (yenile) yap.
+  8080 portu meşgul hatası    → Bilgisayarı yeniden başlat ya da
+                                engine.py içindeki SITE_PORT değerini
+                                (8080) 8081 yap.
+  Kaspersky uyarısı verirse   → "İzin ver / Güven" seç. Program
+                                kendi bilgisayarında izinli çalışıyor.
+
+====================================================================
+  Üstad Kenan Kuzucu · Gaziantep · 0342 329 75 44
+  "Güvenlik korkudan değil, bilgiden doğar."
+====================================================================

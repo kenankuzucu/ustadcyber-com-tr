@@ -1,0 +1,9 @@
+gizli=kimlik,pcsaglik,konsol,takip,supertarama,tespit,osint,osintek,hacker,hedef,aracistihbarat
+
+# BURASI MİSAFİRİN GÖREMEYECEĞİ BÖLÜMLERİN LİSTESİ (tek satır olacak)
+# Nasıl kullanılır:
+#   (usta giriş parolası bu dosyada YAZILMAZ — yedek deposu herkese açıktır)
+#   2) Tema Merkezi > "MİSAFİR YETKİLERİ" kartından istediğin bölümleri işaretle
+#   3) "DIŞA AKTAR" düğmesine bas → çıkan satırı bu dosyanın İLK SATIRINA yapıştır
+#   4) Bu dosyayı index.html ile aynı klasöre koy (sunucuda public_html/siber içine)
+# Yazamazsan da olur: hiçbir şey yazmazsan dosya yok sayılır ve sitede kayıtlı/gömülü ayar kullanılır.
